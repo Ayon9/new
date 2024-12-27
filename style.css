@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: aqua;
+}
+.logo{
+    width: 100px;
+    height: 55px;
+    text-align: right;
+    position: absolute;
+    top: 15px;
+}
+.menu{
+    background-color: blueviolet;
+    text-align: center;
+    list-style: none;
+}
+.menu li{
+    display: inline-block;
+    padding: 25px;
+    position: relative;
+}
+.menu li a{
+    color: rgb(185, 255, 22);
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+}
+.menu li:hover{
+    background-color: #033a1a;
+}
+.menu li:hover .drop{
+display: block;
+}
+.drop{
+    position: absolute;
+    top: 73px;
+    background-color: #e0482d;
+    display: none;
+}
+.drop li:hover{
+background-color: #7f8c8d;
+}
+.main{
+    background-color: #d35400;
+    text-align: center;
+}
+.first{
+    margin: auto;
+    padding: 50px;
+    width: 50%;
+    background-color: aquamarine;
+}
+img{
+margin: auto;
+}
+.sec{
+    text-align: center;
+    background-color: brown;
+}
+.secn{
+    margin: auto;
+    padding: 50px;
+    color: aliceblue;
+}
+.third{
+    text-align: center;
+    background-color: darkorchid;
+}
+.thi{
+    margin: auto;
+    padding: 50px;
+    color: turquoise;
+}
+.foote{
+background-color: #e67e22;
+display: block;
+text-align: center;
+padding: 30px;
+}
